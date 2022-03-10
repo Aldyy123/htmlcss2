@@ -1,0 +1,60 @@
+.container{
+    margin: 10px 20px;
+    text-align: center;
+    background: linear-gradient(20deg, #F68989, #534340) top;
+}
+.container h1{
+    text-transform: uppercase;
+}
+.container a{
+    text-decoration: none;
+    background: #65C18C;
+    padding: 10px 15px;
+    color: #fff;
+}
+.container a:hover{
+    color: red;
+}
+.container div:last-child{
+    margin: 50px auto;
+}
+header{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    background: red;
+    padding: 10px;
+    width: 95vw;
+    z-index: 10;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+.lessons-wrapper{
+    padding: 10px;
+    position: relative!important;
+}
+.lessons-wrapper .container{
+    float: left!important;
+    width: 300px;
+}
+.lessons-wrapper .container .card{
+    overflow: scroll;
+    height: 100px;
+}
+.lessons-wrapper > p{
+    clear: both;
+}
+.lessons-wrapper > h2{
+    text-align: center;
+    color: red;
+}
+.lessons-wrapper .image-lesson{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}
+.lessons-wrapper .image-lesson img{
+    width: 100%;
+}
